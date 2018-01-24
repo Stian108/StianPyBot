@@ -1,2 +1,2 @@
 # StianPyBot
-A python bot and self bot made with Discord.py
+A python bot made with Discord.py

@@ -16,9 +16,9 @@ async def on_ready():
     print('------')
 
 
-@bot.command(pass_context=True, alias="v")
+@bot.command(pass_context=True, alias="g")
 @commands.has_role("Greeter")
-async def verify(ctx, *, member: discord.Member):
+async def greet(ctx, *, member: discord.Member):
     """Let a greeter give a user the Member role."""
     try:
         role = discord.utils.get(ctx.message.server.roles, name="Member")
