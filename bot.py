@@ -4,7 +4,7 @@ import asyncio
 
 import config
 
-bot = commands.Bot(command_prefix=config.PREFIX, self_bot=config.SELF_BOT)
+bot = commands.Bot(command_prefix=config.PREFIX)
 
 
 @bot.event
